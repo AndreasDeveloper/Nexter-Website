@@ -1,0 +1,24 @@
+/* ------------------------------------------- */
+/* 7-1 TYPE FOLDER / FILES IMPLEMENTATION
+/* ------------------------------------------- */
+
+/* - ABSTRACTS FOLDER FILES - */
+@import "abstracts/_variables.scss";
+
+/* - BASE FOLDER FILES - */
+@import "base/_typography.scss";
+@import "base/_base.scss";
+
+/* - COMPONENTS FOLDER FILES - */
+@import "components/_features.scss";
+@import "components/_gallery.scss";
+@import "components/_homes.scss";
+@import "components/_realtors.scss";
+@import "components/_sidebar.scss";
+@import "components/_story.scss";
+
+/* - LAYOUT FOLDER FILES - */
+@import "layout/_footer.scss";
+@import "layout/_header.scss";
+
+/* - PAGES FOLDER FILES - */
