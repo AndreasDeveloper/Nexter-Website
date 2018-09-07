@@ -4,6 +4,32 @@
 /* - ABSTRACTS FOLDER FILES - */
 /* - BASE FOLDER FILES - */
 /* ------------------------------------------- */
+/* TYPOGRAPHY
+/* ------------------------------------------- */
+.heading-1, .heading-2, .heading-3, .heading-4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400; }
+
+/* ------------------------------------------- */
+/* HEADING 1 | h1
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* HEADING 2 | h2
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* HEADING 3 | h3
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* HEADING 4 | h4
+/* ------------------------------------------- */
+.heading-4 {
+  font-size: 1.9rem; }
+  .heading-4--light {
+    color: #f9f7f6; }
+  .heading-4--dark {
+    color: #54483A; }
+
+/* ------------------------------------------- */
 /* BASIC SETUP
 /* ------------------------------------------- */
 *,
@@ -36,8 +62,23 @@ body {
   margin: 15rem 0;
   grid-column: center-start / center-end;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 6rem; }
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 6rem;
+  align-items: start; }
+
+.feature {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 2.5rem; }
+  .feature__icon {
+    fill: #c69963;
+    width: 4.5rem;
+    height: 4.5rem;
+    transform: translateY(-1rem);
+    grid-row: 1 / span 2; }
+  .feature__text {
+    font-size: 1.7rem; }
 
 /* ------------------------------------------- */
 /* GALLERY | IN HOME PAGE
