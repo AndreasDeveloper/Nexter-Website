@@ -8,8 +8,10 @@
 /* - BASE FOLDER FILES - */
 @import "base/_typography.scss";
 @import "base/_base.scss";
+@import "base/_utilities.scss";
 
 /* - COMPONENTS FOLDER FILES - */
+@import "components/_button.scss";
 @import "components/_features.scss";
 @import "components/_gallery.scss";
 @import "components/_homes.scss";
