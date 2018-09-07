@@ -21,3 +21,20 @@ body {
     font-weight: 300;
     line-height: 1.6;
 }
+
+// GRID SETUP / LAYOUT SETUP 
+.container {
+    display: grid;
+    grid-template-rows: 80vh min-content 40vw repeat(3, min-content);               
+    grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end] ) [center-end] minmax(6rem, 1fr) [full-end];   
+    // CONTENT WILL BE DISPLAYED (RESPONSIVE) BETWEEN ITS MINIMUM CONTENT AND 1400px 
+    // TWO 1fr's ARE THE EMPTY COLUMNS THAT CENTERS REST OF THE PAGES CONTENT
+    // SIDEBAR-START | SIDEBAR-END is the sidebar option
+    // FULL-START | FULL-END is the content that goes from the begining of the VW to the end of the VW
+    // CENTER-START | CENTER-END is the content that is centered for the VW
+
+    & > * {
+        padding: 40px;
+        font-size: 3rem;
+    }
+}
