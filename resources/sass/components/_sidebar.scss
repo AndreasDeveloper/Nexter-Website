@@ -5,6 +5,33 @@
 .sidebar {
     background-color: $color-primary;
 
+    // GRID SETUP \\
     grid-column: sidebar-start / sidebar-end;
     grid-row: 1 / -1;
+
+    // FLEXBOX CENTERS THE ICON \\
+    display: flex;
+    justify-content: center;
+}
+
+.nav-btn {
+    border: none;
+    border-radius: none;
+
+    background-color: $color-white;
+    height: .2rem;
+    width: 4.5rem;
+    margin-top: 4rem;
+
+    &::before,
+    &::after {
+        background-color: $color-white;
+        height: .2rem;
+        width: 4.5rem; 
+        content: "";
+        display: block;
+    }
+
+    &::before { transform: translateY(-1.5rem); }
+    &::after { transform: translateY(1.3rem); }
 }
