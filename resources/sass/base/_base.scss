@@ -48,6 +48,6 @@ body {
     // * --- MEDIA QUERIES --- * \\
     @media only screen and (max-width: $bp-medium) {    
         display: grid;
-        grid-template-rows: 6rem calc(100vh - 6rem); // USE CALC TO "MERGE" NAVIGATION ON TOP AND HEADER INTO THE ONE SECTION          
+        grid-template-rows: 6rem calc(100vh - 6rem); // USE CALC TO "MERGE" NAVIGATION ON TOP AND HEADER INTO THE ONE SECTION
     }
 }
