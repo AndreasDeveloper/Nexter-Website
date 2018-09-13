@@ -2,7 +2,7 @@
 
 <b>SUMMARY</b>
 
-- Nexter is a fictional website related to propery buying and selling. User's are able to find all kind of a homes around the world, that will satisfy them and their needs.
+- Nexter is a fictional website related to property buying and selling. User's are able to find all kind of a homes around the world, that will satisfy them and their needs.
 
 <b>FOCUS</b>
 
